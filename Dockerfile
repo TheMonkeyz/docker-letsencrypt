@@ -5,4 +5,3 @@ RUN git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
 WORKDIR /opt/letsencrypt
 RUN ./letsencrypt-auto --help
 
-CMD["/bin/bash"]
